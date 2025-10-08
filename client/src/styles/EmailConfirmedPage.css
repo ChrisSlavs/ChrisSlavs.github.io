@@ -1,0 +1,21 @@
+.email-confirmed-page-content-wrapper {
+    width: 100%; 
+    background-color: var(--main-theme-color-five);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.email-confirmed-page-check {
+    width: 12%; 
+}
+
+.email-confirmed-play-button {
+    background-image: linear-gradient(to right, var(--main-theme-color-green),rgb(37, 146, 79));
+    background-color: var(--main-theme-color-green);
+    width: 480px;
+    max-width: 50%;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+}

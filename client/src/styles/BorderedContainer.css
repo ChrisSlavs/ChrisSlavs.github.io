@@ -1,0 +1,4 @@
+.bordered-container {
+    border: solid 3px var(--main-theme-color-two);
+    position: relative;
+}

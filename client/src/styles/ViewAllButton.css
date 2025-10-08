@@ -1,0 +1,29 @@
+.view-all-button {
+    width: 120px;
+    aspect-ratio: 3.5 / 1;  
+
+    background-color: var(--main-theme-color-two);
+    
+    border-radius: 20px;
+
+    display:flex;
+    place-items: center;
+}
+
+
+#view-all-button-text {
+    position: relative;
+    
+    width: 100%;
+    height: auto;
+    
+    font-size: 1em;
+    font-weight: 350;
+}
+
+#view-all-arrow {
+    width: 8%;
+    position: relative;
+    left: 10%;
+    bottom: 5%;
+}

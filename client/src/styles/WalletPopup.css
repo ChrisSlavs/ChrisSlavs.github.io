@@ -1,0 +1,102 @@
+#wallet-popup-container {
+    width: 360px;
+    min-height: fit-content;
+    position: absolute;
+    top: 240px;
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    --wallet-popup-padding: 16px;
+}
+
+.wallet-popup-header {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wallet-popup-header > button {
+    padding: var(--wallet-popup-padding);
+    background-color: var(--main-theme-color-two);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-active {
+    
+}
+
+.button-inactive {
+
+}
+
+#button-active-id {
+    background-color: var(--main-theme-color-seven);
+}
+
+#button-inactive-id {
+
+}
+
+.wallet-popup-sub-container {
+    padding: var(--wallet-popup-padding);
+}
+
+/* currency overview */
+
+.currency-overview-container {
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+
+.currency-overview-name {
+    font-weight: 350;
+    font-size: 1rem;
+}
+
+.currency-overview-icon-amount-container {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+
+    background-color: var(--main-theme-color-two);
+    width: 100%;
+    height: 1.5em;
+
+    border-radius: 6px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0 0 0 / 0.1);
+}
+
+.currency-overview-icon {
+    width: 6%;
+    margin-left: 4px;
+}
+
+.currency-overview-amount {
+
+}
+
+/* currency info one */
+.currency-info-one-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+/* Daily Bonus */
+.daily-bonus-claim-button {
+    height: 48px;
+}
+
+.daily-bonus-content-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}

@@ -1,0 +1,108 @@
+.game-sidebar {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 8px;
+}
+
+#game-dashboard-side-panel {
+    background-color: var(--main-theme-color-seven)
+}
+
+* > label {
+    font-weight: 400;
+}
+/* wager input */
+.wager-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items:end;
+}
+
+.wager-input-label-container {
+    flex: 1;
+}
+
+.game-option-input-select {
+    box-shadow: 2px 2px 2px 1px rgba( 0 0 0 / 0.15);
+}
+
+.wager-input {
+    border-radius: var(--input-border-radius) 0 0 var(--input-border-radius);
+}
+
+.wager-change-button {
+    background-color: var(--main-theme-color-three);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    box-shadow: 2px 2px 2px 1px rgba( 0 0 0 / 0.15);
+    width: 36px;
+    height: 36px;
+    box-sizing: content-box;
+}
+
+.wager-buttons-wrapper {
+    width: fit-content;
+    display: flex;
+}
+
+#half-button {
+    border-left: 0;
+    border-radius: 0px var(--input-border-radius) var(--input-border-radius) 0px;
+}
+
+#half-button::before {
+    content: "";
+    width: var(--input-border-width);
+    height: 80%;
+    background-color: var(--main-theme-color);
+
+    position: relative;
+    right: 7px;
+
+    border-radius: 5px;
+}
+
+#double-button {
+
+}
+
+#double-button-x {
+    position:relative;
+    bottom: 3%;
+}
+
+.game-sidebar-playbutton {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    #game-dashboard-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+        row-gap: 12px;
+
+        width: 100%;
+    }
+
+    #game-dashboard-side-panel {
+        width: 100%;
+        border-radius: 0 0 16px 16px; 
+    }
+
+    .game-sidebar {
+        row-gap: 4px;
+    }
+
+    .wager-buttons-wrapper > button {
+        height: 32px;
+    }
+
+    .game-sidebar-playbutton {
+        margin-top: 12px;
+        height: 36px;
+    }
+}

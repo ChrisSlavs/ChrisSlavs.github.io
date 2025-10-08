@@ -1,0 +1,9 @@
+.active-link {
+    width: 100%;
+    background-color: var(--main-theme-color-two);
+}
+
+.inactive-link > span,  
+.active-link > span {
+    padding-left: 0.5em;
+}

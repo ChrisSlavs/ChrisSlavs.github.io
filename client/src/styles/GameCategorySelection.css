@@ -1,0 +1,49 @@
+.game-category-selection-wrapper {
+    display: grid;
+    column-gap: 12px;
+
+    background-color: var(--main-theme-color-five);
+
+    min-width: fit-content;
+    height: 150px;
+    min-height: fit-content;
+
+    place-items:center;
+
+    border: 7px var(--main-theme-color-five) solid;
+    padding-left: 0px;
+    border-radius: 32px;
+}
+
+.game-category-button {
+    display:flex;
+    padding: 0.75rem;
+    background-color: var(--main-theme-color);
+    font-size: 1rem;
+
+    border-radius: 24px;
+
+    width: 97%;
+    height: 75%;
+    align-items:center;
+    justify-content:center;
+}
+
+#lobby-category {
+    grid-column: 1 / span 1;
+}
+
+#better-bets-category {
+    grid-column: 2 / span 2;
+}
+
+#tables-category {
+
+}
+
+#other-category {
+
+}
+
+#new-category {
+}

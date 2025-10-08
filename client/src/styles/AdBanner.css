@@ -1,0 +1,56 @@
+.ad-banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    background-color: var(--main-theme-color-three);
+
+    border-bottom: solid 16px var(--main-theme-color-two);
+}
+
+.ad-container {
+    display:grid;
+    grid-template-columns: 45% 40%;
+    grid-template-rows: 200px;
+    column-gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 90%;
+
+    overflow-x: auto;
+}
+
+.ad-banner::-webkit-scrollbar {
+    height: var(--scrollbar-width);
+}
+
+/* Ad 1 */
+#ad-block-1 {
+    height: 85%;
+}
+
+#ad-block-1-block-1 {
+    width: 50%;
+}
+
+#ad-block-1-block-2 {
+    width: 50%;
+}
+
+/* Ad 2 */
+#ad-block-2 {
+    position: relative;
+    z-index: 0;
+    height: 85%;
+}
+
+#ad-block-2-block-1 {
+    position: relative;
+    z-index: 0;
+    width:50%;
+}
+
+#ad-block-2-block-2 {
+    width:50%;
+}

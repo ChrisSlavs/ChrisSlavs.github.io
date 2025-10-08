@@ -1,0 +1,51 @@
+.about-page-container {
+    padding: 16px;
+    background-color: var(--main-theme-color-seven);
+    width: 100%;
+    height: fit-content;
+}
+
+.about-page-inner-container {
+    padding: 16px;
+}
+
+.about-page-header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: fit-content;
+}
+
+.about-page-header::after {
+    height: 2px;
+    width: 100%;
+    content: '';
+    background-color: var(--main-theme-color-six);
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.about-page-list {
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.about-page-list-header {
+    padding-top: 12px;
+    font-size: 1rem;
+}
+
+.about-page-commitments {
+    padding-top: 12px;
+}
+
+#our-commitment {
+    padding-bottom: 0;
+}
+
+.about-page-commitments > span {
+    font-size: 1.025rem;
+    font-weight: 400;
+}

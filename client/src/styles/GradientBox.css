@@ -1,0 +1,16 @@
+.gradient-box {
+    width: 100%;
+    height: 100%;
+
+    opacity: 85%;
+}
+
+.gradient-green {
+    background-color: rgb(3, 122, 33);
+    background-image:linear-gradient(to right, rgb(3, 122, 33), rgb(3, 197, 52));
+}
+
+.gradient-red {
+    background-color: rgb(211, 52, 13);
+    background-image:linear-gradient(to right, rgb(211, 52, 13), rgb(138, 21, 12));
+}

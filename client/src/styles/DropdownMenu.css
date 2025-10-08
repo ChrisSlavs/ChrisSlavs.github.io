@@ -1,0 +1,26 @@
+.dropdown-menu {
+    background-color: var(--main-theme-text-color-one);
+    list-style: none;
+
+    top: 100%;
+
+    padding: 0px 6px 0px 0px;
+    border-radius: 4px 
+}
+
+.dropdown-menu-item {
+    color: var(--main-theme-color-black);
+    font-size: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 2px 0 2px 2px;
+}
+
+.dropdown-menu-container {
+    position:absolute;
+    top: 85%;
+
+    z-index: 1;
+}

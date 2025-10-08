@@ -1,0 +1,97 @@
+.game-canvas-assets-container {
+    position: relative;
+
+    display:flex;
+    --odds-column-gap: 24px;
+}
+
+.game-canvas {
+    max-width: 100%;
+    min-width: 0;
+    min-height: 100%;
+}
+
+.odds-menu-border {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.odds-button-menu-container {
+    position: absolute;
+    width: fit-content;
+    align-items: end;
+    padding-right: 4px;
+    padding-top: 4px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    right: 0%;
+}
+
+.odds-menu-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: solid black 2px;
+    color: black;
+    box-shadow: 1px 1px 1px 1px rgba(0 0 0 / 0.3);
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odds-menu {
+    background-color: var(--main-theme-color);
+    box-shadow: 2px 2px 1px 2px rgba(0 0 0 / 0.1);
+
+    border-radius: 4px;
+    padding: 4px 4px 4px 4px;
+    box-sizing: border-box;
+}
+
+.odds-menu-title {
+    display: flex;
+    column-gap: var(--odds-column-gap);
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    padding: 4px 4px 0 4px;
+}
+
+.odds-menu-content-container {
+    padding: 0 4px 4px 4px;
+    
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.odds-menu-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--main-theme-color-two);
+    padding: 4px 4px 4px 4px;
+    margin: 0 -4px 0 -4px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px 1px rgba(0 0 0 / 0.2);
+}
+
+#odds-menu-triangle {
+    right: 4px;
+    top: 1px;
+    border-bottom: 8px solid var(--main-theme-color-two);
+}
+
+.results-container {
+}
+
+.probs-container {
+
+}
